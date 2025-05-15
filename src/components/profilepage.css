@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #e6f0ff;
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+.profilepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 1rem;
+  min-height: 100vh;
+}
+
+.profiletitle {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #ffffff;
+  text-shadow: 0 0 20px #00bfff, 0 0 10px #00f7ff;
+  margin-bottom: 3rem;
+  letter-spacing: 2px;
+}
+
+.prof {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 60px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.profilecard,
+.formcard {
+  background: linear-gradient(160deg, #102a43, #1a3c65);
+  border: 3px solid #00c6ff33;
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+  width: 620px;
+  box-shadow: 0 0 25px rgba(0, 191, 255, 0.3), 0 0 10px rgba(0, 174, 255, 0.15);
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.profilecard:hover,
+.formcard:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 40px rgba(0, 191, 255, 0.5);
+}
+
+.cardtitle {
+  font-size: 1.9rem;
+  margin-bottom: 1.7rem;
+  font-weight: 700;
+  color: #33ccff;
+  border-left: 6px solid #00bfff;
+  padding-left: 1.2rem;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  margin: 0.5rem 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+strong {
+  color: #87d7ff;
+}
+
+.formgroup {
+  margin-bottom: 1.6rem;
+}
+
+.formlabel {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+  color: #a6d8ff;
+  text-shadow: 0 0 3px #007fff;
+}
+
+.forminput {
+  width: 100%;
+  padding: 0.8rem 1.2rem;
+  border: 2px solid #2e4a78;
+  border-radius: 0.75rem;
+  background-color: #0d1a2e;
+  color: #e6f0ff;
+  font-size: 1rem;
+  transition: border-color 0.3s, background-color 0.3s;
+  box-shadow: inset 0 0 10px #002244aa;
+}
+
+.forminput:focus {
+  outline: none;
+  border-color: #00bfff;
+  background-color: #132f4c;
+  box-shadow: 0 0 8px #00bfff99;
+}
+
+.submitbtn {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(90deg, #00c6ff, #0066ff);
+  border: 2px solid #0099ff;
+  border-radius: 0.75rem;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 3px #000;
+  letter-spacing: 1px;
+}
+
+.submitbtn:hover {
+  background: linear-gradient(90deg, #33d6ff, #3388ff);
+  box-shadow: 0 0 15px rgba(0, 174, 255, 0.8);
+  transform: translateY(-3px);
+}
+
+.progressblock {
+  margin-top: 2.2rem;
+}
+
+.progressbar {
+  width: 100%;
+  background-color: #19334d;
+  border-radius: 0.7rem;
+  overflow: hidden;
+  height: 1.3rem;
+  margin-top: 0.8rem;
+  box-shadow: inset 0 0 8px #007fff44;
+}
+
+.progressfill {
+  height: 100%;
+  background: linear-gradient(90deg, #00f0ff, #0055ff, #00d2ff);
+  border-radius: 0.7rem;
+  transition: width 0.4s ease;
+  box-shadow: 0 0 10px #00d4ffcc;
+}
+
+.progresstext {
+  margin-top: 0.6rem;
+  font-size: 1.05rem;
+  color: #a6e8ff;
+  text-align: right;
+  text-shadow: 0 0 2px #007fff;
+}

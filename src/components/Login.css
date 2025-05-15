@@ -1,0 +1,144 @@
+#form-ui {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+#form-ui h2{
+  font-size: 100px;
+  margin-top: -200px;
+}
+
+#form {
+  background-color: #1a1a1a;
+  padding: 50px 40px;
+  border-radius: 25px;
+  box-shadow: 0 0 25px rgba(0, 255, 170, 0.2);
+  width: 100%;
+  max-width: 480px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+#form-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#welcome-lines {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#welcome-line-1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #00ffcc;
+  text-shadow: 0 0 5px #00ffcc50;
+}
+
+#welcome-line-2 {
+  font-size: 22px;
+  color: #cccccc;
+  margin-top: 10px;
+}
+
+#input-area {
+  width: 100%;
+}
+
+.form-inp {
+  margin-bottom: 20px;
+}
+
+.form-inp input {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 12px;
+  background-color: #2a2a2a;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+.form-inp input::placeholder {
+  color: #888;
+}
+
+.form-inp input:focus {
+  outline: none;
+  background-color: #333;
+  box-shadow: 0 0 5px #00ffaa80;
+}
+
+.error-message {
+  color: #ff4d4f;
+  font-size: 16px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+#submit-button-cvr {
+  margin-top: 20px;
+  width: 100%;
+}
+
+#submit-button {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 12px;
+  background-color: #00ffaa;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#submit-button:hover {
+  background-color: #00e6a0;
+  transform: scale(1.02);
+}
+
+#toggle-auth {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+
+#toggle-auth span {
+  font-weight: bold;
+  color: #00ffaa;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+#toggle-auth span:hover {
+  color: #00dd99;
+  text-decoration: underline;
+}
+
+#logout-button {
+  background-color: #5e0d0e;
+  color: white;
+  padding: 14px 28px;
+  border: white 1px solid;
+  font-weight: 900;
+  border-radius: 12px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 77, 79, 0.3);
+  display: flex;
+  justify-content: center;
+}
+
+#logout-button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #5e0d0e;
+}

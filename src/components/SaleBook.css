@@ -1,0 +1,333 @@
+.title h1 {
+  font-size: 55px;
+  font-family: "Kaisei HarunoUmi", sans-serif;
+  text-align: center;
+  margin-top: 200px;
+  color: #fff;
+}
+
+.books {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.pricing-section {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 60px 20px;
+  flex-wrap: wrap;
+  width: 1300px;
+  align-items: center;
+}
+
+.card {
+  background: #111;
+  padding: 30px;
+  border-radius: 20px;
+  border: #ffffff44 1px solid;
+  height: fit-content;
+  width: 200px !important;
+  height: 1000px !important;
+  flex: 1;
+  box-shadow: 0 0 10px rgba(255,255,255,0.05);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card.special {
+  background: linear-gradient(135deg, #000000, #05075c, blue);
+}
+
+.card h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.subtitle {
+  color: #999;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 80px 10px;
+}
+
+.includes {
+  margin-top: 20px;
+  color: #aaa;
+  font-size: 13px;
+}
+
+.pricing-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pricing-section ul li {
+  margin: 30px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.pricing-section ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #aaa;
+}
+
+.pricing-section button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.pricing-section button:hover {
+  opacity: 0.9;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #1c1c1c;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  z-index: 1000;
+  color: white;
+  box-shadow: 0 0 20px rgba(0,255,0,0.2);
+}
+
+.popup.hidden {
+  display: none;
+}
+.btns{
+    display: flex;
+    gap: 20px;
+}
+.whatsapp-button {
+  background-color: #25D366;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btnsWhatsApp button {
+  font-family: inherit;
+  font-size: 20px;
+  background: #212121;
+  color: white;
+  fill: rgb(155, 153, 153);
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  margin-left: 10px;
+  font-weight: 1000;
+}
+
+.btnsWhatsApp button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnsWhatsApp button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btnsWhatsApp button:hover {
+  background: #000;
+}
+
+.btnsWhatsApp button:hover .svg-wrapper {
+  transform: scale(2);
+  transition: 0.5s linear;
+}
+
+.btnsWhatsApp button:hover svg {
+  transform: translateX(4.5em) scale(1.1);
+  fill: #dd2727;
+}
+
+.btnsWhatsApp button:hover span {
+  opacity: 0;
+  transition: 0.5s linear;
+}
+
+.btnsWhatsApp button:active {
+  transform: scale(0.95);
+}
+
+.Customers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.Customers img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.CustomersInside {
+  border-radius: 30px;
+  width: auto;
+  height: 50px;
+  background-color: rgba(255,255,255,0.094);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.CustomersInside p {
+  letter-spacing: 1px;
+  color: white;
+}
+.AboutContain{
+  margin-top: 200px;
+  width: 100%;
+  display: flex;
+}
+.image-side {
+  flex: 1;
+}
+
+.image-side img {
+  width:95%;
+  height: 700px;
+  object-fit: cover;
+  border: #ffffff 2px solid;
+  border-radius: 20px;
+}
+
+.text-side {
+  flex: 1;
+  margin-left: -15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+
+.stat-block {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.stat-box {
+  background-color: #2563eb;
+  padding: 20px;
+  border-radius: 15px;
+  width: 600px;
+  height: 200px;
+  text-align: center;
+}
+.stat-box p:first-child {
+  font-size: 32px;
+  margin-top: 45px;
+  font-weight: bold;
+}
+
+.stat-box p:last-child {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.stat-text {
+  color: #ccc;
+  font-size: 16px;
+  border: #ffffff 2px solid;
+  line-height: 1.6;
+  height: 200px;
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+}
+
+@media (max-width: 1200px) {
+  .pricing-section {
+    width: 100%;
+  }
+  
+  .card {
+    width: 300px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  
+  .container {
+    flex-direction: column;
+  }
+  
+  .image-side img {
+    height: 500px;
+  }
+  
+  .stat-block {
+    flex-direction: column;
+  }
+  
+  .stat-box, .stat-text {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title h1 {
+    font-size: 40px;
+    margin-top: 100px;
+  }
+  
+  .card {
+    width: 100%;
+  }
+  
+  .image-side img {
+    height: 300px;
+  }
+}

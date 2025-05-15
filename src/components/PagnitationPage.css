@@ -1,0 +1,130 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #000000;
+  color: #fff;
+}
+
+.lifestyle-page {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #00ffe7;
+  text-shadow: 1px 1px 10px rgba(0, 255, 231, 0.5);
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.category-button {
+  background: transparent;
+  border: 2px solid #00ffe7;
+  color: #00ffe7;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.category-button:hover {
+  background-color: #00ffe7;
+  color: #111;
+}
+
+.category-button.active {
+  background-color: #00ffe7;
+  color: #111;
+  font-weight: bold;
+}
+
+.content-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 400px !important;
+  height: 600px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 231, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-image {
+  width: 350px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin: 15px 15px 10px;
+  color: #00ffe7;
+}
+
+.card-description {
+  font-size: 1rem;
+  padding: 0 15px 15px;
+  color: #ddd;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.pagination button {
+  background: transparent;
+  border: 2px solid #00ffe7;
+  color: #00ffe7;
+  padding: 8px 15px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #00ffe7;
+  color: #111;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination .active {
+  background-color: #00ffe7;
+  color: #111;
+  font-weight: bold;
+}
+
+.error {
+  text-align: center;
+  color: #ff4c4c;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
