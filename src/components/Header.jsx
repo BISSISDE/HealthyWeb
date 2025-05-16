@@ -76,7 +76,7 @@ const Header = () => {
                       href="/ai"
                       className="text-white no-underline py-2 px-3 rounded hover:bg-gray-700"
                     >
-                      Team
+                      BotAi
                     </a>
                     <a
                       href="/profile"
