@@ -19,11 +19,7 @@ const Header = () => {
     >
       <div className="flex gap-28 items-center">
         <div className="flex gap-5 items-center">
-          <img
-            src={logo}
-            alt="Logo"
-            className="w-12 h-12 rounded-lg"
-          />
+          <img src={logo} alt="Logo" className="w-12 h-12 rounded-lg" />
           <div
             className={`text-2xl font-bold text-white ${
               theme === "dark" ? "!text-white" : "!text-black"
@@ -72,56 +68,56 @@ const Header = () => {
                     >
                       Buy a book
                     </Link>
-                    <a
-                      href="/ai"
+                    <Link
+                      to="/ai"
                       className="text-white no-underline py-2 px-3 rounded hover:bg-gray-700"
                     >
                       BotAi
-                    </a>
-                    <a
-                      href="/profile"
+                    </Link>
+                    <Link
+                      to="/profile"
                       className="text-white no-underline py-2 px-3 rounded hover:bg-gray-700"
                     >
                       Profile
-                    </a>
-                    <a
-                      href="/planner"
+                    </Link>
+                    <Link
+                      to="/planner"
                       className="text-white no-underline py-2 px-3 rounded hover:bg-gray-700"
                     >
                       Planner
-                    </a>
+                    </Link>
                   </div>
                   <div className="flex flex-col">
-                    <a
-                      href="/logicGames"
+                    <Link
+                      to="/logicGames"
                       className="text-white no-underline py-2 px-3 rounded hover:bg-gray-700"
                     >
                       Logic
-                    </a>
-                    <a
-                      href="/lifestyle"
+                    </Link>
+                    <Link
+                      to="/lifestyle"
                       className="text-white no-underline py-2 px-3 rounded hover:bg-gray-700"
                     >
                       LifeStyleCards
-                    </a>
-                    <a
-                      href="#"
+                    </Link>
+                    <Link
+                      to="#"
                       className="text-white no-underline py-2 px-3 rounded hover:bg-gray-700"
                     >
                       Licenses
-                    </a>
-                    <a
-                      href="#"
+                    </Link>
+                    <Link
+                      to="#"
                       className="text-white no-underline py-2 px-3 rounded hover:bg-gray-700"
                     >
                       Style-Guide
-                    </a>
-                    <a
-                      href="#"
+                    </Link>
+                    <Link
+                      to="#"
                       className="text-white no-underline py-2 px-3 rounded hover:bg-gray-700"
                     >
                       Changelog
-                    </a>
+                    </Link>
                   </div>
                 </div>
               )}
@@ -176,10 +172,7 @@ const Header = () => {
         >
           Book an appointment
         </button>
-        <button
-          onClick={toggleTheme} 
-          className="theme-toggle-btn"
-        >
+        <button onClick={toggleTheme} className="theme-toggle-btn">
           {theme === "light" ? "🌙 Dark" : "☀️ Light"}
         </button>
       </div>
