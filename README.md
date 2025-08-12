@@ -1,68 +1,21 @@
-# 🌿 FitRecipe — AI-Powered Meal Selection by Goal
-## 🌐 Live Demo
-You can try the project here: [[http://fitrecipe.netlify.app](http://fitrecipe.netlify.app)]
+# BizbenOzger
+You can try the project here: [[https://usefulwweb.netlify.app/](https://usefulwweb.netlify.app/)]
 
-## 💡 Idea
-FitRecipe is an **AI-powered nutrition assistant** that helps users choose recipes and meals based on their specific goals.  
-Whether you want to lose weight, gain muscle, maintain your shape, follow a vegan/vegetarian diet, go gluten-free, or stick to keto — the AI will find the best options for you.
+**BizbenOzger** is a React-based web application that helps users develop balanced daily habits, improve focus through interactive games, explore a healthy lifestyle, and connect with an AI assistant for personalized advice.
 
----
+## 🚀 Features
 
-## 🤖 AI Features
-- **Goal-based recommendations:** AI analyzes your goal and generates a tailored recipe selection.
-- **Smart filtering:** Calorie count, meal type, preparation difficulty, and available ingredients are processed by AI to give you the most relevant results.
-- **Ingredient replacement suggestions:** AI provides alternative ingredient options (e.g., what to use instead of chicken).
+- **Daily Habit Planner** – Build and track balanced daily habits using a modern, user-friendly planner.
+- **Focus Game** – Train your concentration and attention skills through an engaging interactive game.
+- **AI Assistant** – Ask any question related to lifestyle, habits, or productivity and get instant AI-powered responses.
+- **Book Store** – Purchase the book by **Azamat Skakov** directly from the website.
+- **About the Author** – Learn who Azamat Skakov is, why his books are important, and why we recommend reading them.
+- **Healthy Lifestyle Content** – Discover tips, articles, and AI guidance for maintaining a healthier life.
 
----
+## 🛠️ Tech Stack
 
-## 📋 Main Features
+- **React** – Core framework for building the UI.
+- **Tailwind CSS** – Utility-first styling for a modern and responsive design.
+- **CSS** – Custom styles for additional UI customization.
 
-### 🔎 1. Goal Selection (AI-Powered)
-On the homepage:  
-> “I want to...” → dropdown menu with options:
-- Lose weight
-- Gain muscle
-- Maintain shape
-- Vegan / Vegetarian
-- Gluten-free diet
-- Keto, etc.  
-The AI processes your choice and creates a personalized meal plan.
-
----
-
-### 📊 2. Filters (AI-Powered)
-- Calorie count
-- Meal type: breakfast, lunch, dinner, snack
-- Cooking difficulty / time
-- Ingredients available in your fridge  
-The AI matches recipes to your filters and preferences.
-
----
-
-### 🍲 3. Recipe Cards
-Each recipe card contains:
-- Image
-- Dish name
-- Short description
-- Nutrition facts (calories, proteins, fats, carbs)
-- **"More Details"** button
-
----
-
-## 🛠 Technologies
-- **React** + **Vite**
-- **Tailwind CSS** + **Custom CSS**
-- **AI API** (e.g., OpenAI / Gemini API)
-
----
-
-## 🚀 Getting Started
-```bash
-# Install dependencies
-npm install
-
-# Run in development mode
-npm run dev
-
-# Build for production
-npm run build
+## 📦 Installation
