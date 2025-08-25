@@ -18,4 +18,6 @@ You can try the project here: [[https://usefulwweb.netlify.app/](https://usefulw
 - **Tailwind CSS** – Utility-first styling for a modern and responsive design.
 - **CSS** – Custom styles for additional UI customization.
 
-## 📦 Installation
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
